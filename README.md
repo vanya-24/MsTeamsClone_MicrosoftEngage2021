@@ -4,7 +4,7 @@
     
 # Home Page of Application
 
- ![alt text](https://github.com/vanya-24/MicrosoftEngage_MsTeamsClone_2021/blob/main/app.png)
+ ![alt text](https://github.com/vanya-24/MsTeamsClone_MicrosoftEngage2021//blob/main/home.png)
 
 # Technology is best when it brings people together.
 
