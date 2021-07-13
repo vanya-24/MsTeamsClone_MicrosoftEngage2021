@@ -6,6 +6,10 @@
 
  ![alt text](https://github.com/vanya-24/MsTeamsClone_MicrosoftEngage2021/blob/main/home.png)
 
+# Video demo link 
+https://youtu.be/SUZ-RTyM0SQ
+
+
 # Technology is best when it brings people together.
 
 
@@ -57,14 +61,18 @@ Technology which enables Web applications and sites to capture and optionally st
 
 # SetUp
 1. Clone this repository in your local system. (git clone https://github.com/vanya-24/MicrosoftEngage_MsTeamsClone_2021.git)
-2. Connect to database -- MySql
-3. Open the command prompt from your project directory and run the command npm start.
-4. Go to your browser and type http://127.0.0.1:3030/ in the address bar.
-  Hurray! That's it.
+2. Install Xampp and start Apache and connect to database -- MySql
+3. Open the command prompt from your project directory.
+4. Install npm packages
+   npm install 
+5. Run: 
+   npm init &
+   npm start
+6. Go to your browser and type http://127.0.0.1:3030/ in the address bar.
+      Hurray! That's it.
 
 
 
- 
 
 
 
