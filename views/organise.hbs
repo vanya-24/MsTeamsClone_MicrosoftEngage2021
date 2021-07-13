@@ -1,0 +1,117 @@
+<!-- header,join,create -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams|Organise</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript" src="js/home.js" defer></script>
+    <link rel="stylesheet" href="css/home.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .btn {
+            color: #fff;
+            font-family: helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: 900;
+            background-color: #6264A7;
+            border: 0;
+            padding: 20px 20px;
+            border-radius: 3px;
+            line-height: 0.428571;
+            position: absolute;
+            z-index: 1;
+            letter-spacing: -0.2px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+        .btn-1 {
+            color: #fff;
+            font-family: helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: 900;
+            background-color: #6264A7;
+            border: 0;
+            padding: 20px 20px;
+            border-radius: 3px;
+            line-height: 0.428571;
+            position: absolute;
+            z-index: 1;
+            letter-spacing: -0.2px;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .btn:hover,
+        .btn-1:hover {
+            background: yellow;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <a href="/"><img src="https://img.icons8.com/color/48/000000/microsoft.png"></a>
+        </div>
+        <ul>
+            <h2 class="text-center" style="margin-top:12px; font-family:cursive;">Meeting</h2>
+        </ul>
+    </div>
+    <div class="container">
+
+        <a class="btn" href="/room">Host Meeting</a>
+
+        <br>
+
+
+
+        <p>
+            <a class="btn btn-primary btn-1" data-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Join Meeting
+            </a>
+        </p>
+        <div class="collapse" id="collapseExample" style="color: #000;">
+            <input type="text" placeholder="Enter meeting link">
+            <button>Join</button>
+        </div>
+    </div>
+
+    <script>
+        let btnOpen = document.querySelector('button');
+        let input = document.querySelector('input');
+
+        btnOpen.addEventListener('click', () => {
+            window.open(input.value, '_blank', 'height=600px, width=600px');
+        })
+    </script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

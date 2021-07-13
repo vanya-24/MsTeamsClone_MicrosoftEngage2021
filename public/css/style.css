@@ -1,0 +1,149 @@
+:root{
+    --clr-bg: #fff;
+}
+
+.darkmode{
+    --clr-bg : #000;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#video-grid{
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+.left{
+    flex : 0.8;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_videos{
+    flex-grow: 1;
+    background-color:var(--clr-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls{
+    display: flex;
+    background-color: #3f375c;
+    color:#fff;
+    justify-content: space-between;
+    /* color : #182c25; */
+    padding: 5px;
+}
+.control_block{
+    display: flex;
+}
+.main_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.main_button i{
+    font-size: 24px;
+}
+
+.main_button:hover{
+    background-color:rgb(65, 25, 88) ;
+    border-radius: 5px;
+
+}
+.leave{
+    color:brown;
+    /* font-size: 14px; */
+}
+
+.right{
+    display: flex;
+    flex:0.2;
+    flex-direction: column;
+    background-color: #3f375c;
+    border-left: 1px solid  #3f375c;
+}
+.main_header{
+    color:#fff;
+    text-align: center;
+    font-size: 24px;
+}
+.chat{
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+.main_msg{
+    padding: 22px 12px;
+    display: flex;
+}
+
+.main_msg input{
+    flex-grow: 1;
+    background-color: #fff;
+    /* background-color: transparent; */
+    border:none;
+    color: #000;
+}
+
+.messages{
+    padding-top: 2px;
+    color: #fff;
+    list-style: none;
+}
+
+.main_button {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    min-width: 80px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+#all_messages li {
+    color: #fff;
+    list-style: none;
+    border-bottom: 1px solid #5c5c63;
+    padding: 10px 0;
+  }
+
+  .main_msg_container {
+    padding: 22px 11px;
+    margin-left: 29px;
+    display: flex;
+  }
+  .main_msg_container input {
+    flex-grow: 1;
+    background-color: white;
+    border: none;
+    color: black;
+    user-select: none;
+    outline: none;
+  }
+.unmute, .stop{
+    color: red;
+}
