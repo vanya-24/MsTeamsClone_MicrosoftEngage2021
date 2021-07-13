@@ -60,7 +60,7 @@ Technology which enables Web applications and sites to capture and optionally st
 2. Connect to database -- MySql
 3. Open the command prompt from your project directory and run the command npm start.
 4. Go to your browser and type http://127.0.0.1:3030/ in the address bar.
-Hurray! That's it.
+  Hurray! That's it.
 
 
 
